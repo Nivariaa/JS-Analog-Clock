@@ -1,0 +1,115 @@
+
+.session-holder {
+	position: absolute;
+	border: 2px solid black;
+	width: 50px;
+	height: 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-left: auto;
+	font-size: 25px;
+	margin-right: auto;
+	margin-top: 380px;
+	z-index: -1;
+}
+
+.num {
+	position: absolute;
+	margin-left: 50%;
+	transform-origin: bottom;
+	height: 50%;
+}
+
+.num1 {
+	transform: translateX(-50%) rotate(30deg);
+}
+
+.num2 {
+	transform: translateX(-50%) rotate(60deg);
+}
+
+.num3 {
+	transform: translateX(-50%) rotate(90deg);
+}
+
+.num4 {
+	transform: translateX(-50%) rotate(120deg);
+}
+
+.num5 {
+	transform: translateX(-50%) rotate(150deg);
+}
+
+.num6 {
+	transform: translateX(-50%) rotate(180deg);
+}
+
+.num7 {
+	transform: translateX(-50%) rotate(210deg);
+}
+
+.num8 {
+	transform: translateX(-50%) rotate(240deg);
+}
+
+.num9 {
+	transform: translateX(-50%) rotate(270deg);
+}
+
+.num10 {
+	transform: translateX(-50%) rotate(300deg);
+}
+
+.num11 {
+	transform: translateX(-50%) rotate(330deg);
+}
+
+.num12 {
+	transform: translateX(-50%);
+}
+
+#clock {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 5px solid black;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	font-size: 50px;
+}
+
+.hand {
+	--rotation: 0;
+	position: absolute;
+	bottom: 50%;
+	width: 2px;
+	background: red;
+	border-radius: 20px;
+	margin-left: 50%;
+	transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg)) ;
+	transform-origin: bottom;
+}
+
+.sec {
+	height: 49.5%;
+}
+
+.min {
+	border: 1px solid gray;
+	background: black;
+	width: 8px;
+	height: 49%;
+}
+
+.hr {
+	border: 1px solid gray;
+	background: black;
+	width: 15px;
+	height: 35%;
+}
